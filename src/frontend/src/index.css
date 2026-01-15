@@ -41,8 +41,8 @@
         /* Gold color: #D4AF37 converted to OKLCH */
         --gold: 55 0.15 45%;
         
-        /* Blue color for cinematic glow: elegant vivid blue in OKLCH - enhanced for better visibility */
-        --blue-glow: 65 0.20 250%;
+        /* Blue color for cinematic glow: highly prominent vivid blue in OKLCH - significantly enhanced for maximum visibility */
+        --blue-glow: 70 0.28 250%;
     }
 
     .dark {
@@ -79,7 +79,7 @@
         --sidebar-border: 0.2 0 0%;
         --sidebar-ring: 55 0.15 45%;
         
-        --blue-glow: 65 0.20 250%;
+        --blue-glow: 70 0.28 250%;
     }
 
     * {
@@ -159,23 +159,24 @@
                 drop-shadow(0 0 75px oklch(var(--gold) / 0.3));
     }
     
-    /* Blue glow box for Hire Me button - Enhanced for better visibility */
+    /* Blue glow box for Hire Me button - Significantly enhanced for maximum visibility and prominence */
     .blue-glow-box {
         display: inline-block;
         padding: 6px;
         border-radius: 0.625rem;
-        background: oklch(var(--blue-glow) / 0.05);
-        border: 2px solid oklch(var(--blue-glow) / 0.7);
-        box-shadow: 0 0 25px oklch(var(--blue-glow) / 0.6),
-                    0 0 50px oklch(var(--blue-glow) / 0.4),
-                    0 0 75px oklch(var(--blue-glow) / 0.2),
-                    inset 0 0 25px oklch(var(--blue-glow) / 0.15);
+        background: oklch(var(--blue-glow) / 0.12);
+        border: 3px solid oklch(var(--blue-glow) / 0.9);
+        box-shadow: 0 0 40px oklch(var(--blue-glow) / 0.9),
+                    0 0 80px oklch(var(--blue-glow) / 0.7),
+                    0 0 120px oklch(var(--blue-glow) / 0.5),
+                    0 0 160px oklch(var(--blue-glow) / 0.3),
+                    inset 0 0 40px oklch(var(--blue-glow) / 0.25);
         transition: all 0.3s ease-in-out;
     }
     
     .blue-glow-box:hover {
-        background: oklch(var(--blue-glow) / 0.08);
-        border-color: oklch(var(--blue-glow) / 0.9);
+        background: oklch(var(--blue-glow) / 0.18);
+        border-color: oklch(var(--blue-glow) / 1);
     }
     
     /* Gradient utilities */
@@ -233,22 +234,24 @@
         animation: pulse-glow 2s ease-in-out infinite;
     }
     
-    /* Blue pulse glow animation for Hire Me button - Enhanced for cinematic effect */
+    /* Blue pulse glow animation for Hire Me button - Significantly enhanced for maximum cinematic prominence */
     @keyframes pulse-blue-glow {
         0%, 100% {
-            border-color: oklch(var(--blue-glow) / 0.7);
-            box-shadow: 0 0 25px oklch(var(--blue-glow) / 0.6),
-                        0 0 50px oklch(var(--blue-glow) / 0.4),
-                        0 0 75px oklch(var(--blue-glow) / 0.2),
-                        inset 0 0 25px oklch(var(--blue-glow) / 0.15);
+            border-color: oklch(var(--blue-glow) / 0.9);
+            box-shadow: 0 0 40px oklch(var(--blue-glow) / 0.9),
+                        0 0 80px oklch(var(--blue-glow) / 0.7),
+                        0 0 120px oklch(var(--blue-glow) / 0.5),
+                        0 0 160px oklch(var(--blue-glow) / 0.3),
+                        inset 0 0 40px oklch(var(--blue-glow) / 0.25);
         }
         50% {
-            border-color: oklch(var(--blue-glow) / 0.9);
-            box-shadow: 0 0 35px oklch(var(--blue-glow) / 0.8),
-                        0 0 70px oklch(var(--blue-glow) / 0.6),
-                        0 0 105px oklch(var(--blue-glow) / 0.4),
-                        0 0 140px oklch(var(--blue-glow) / 0.2),
-                        inset 0 0 35px oklch(var(--blue-glow) / 0.2);
+            border-color: oklch(var(--blue-glow) / 1);
+            box-shadow: 0 0 60px oklch(var(--blue-glow) / 1),
+                        0 0 120px oklch(var(--blue-glow) / 0.9),
+                        0 0 180px oklch(var(--blue-glow) / 0.7),
+                        0 0 240px oklch(var(--blue-glow) / 0.5),
+                        0 0 300px oklch(var(--blue-glow) / 0.3),
+                        inset 0 0 60px oklch(var(--blue-glow) / 0.35);
         }
     }
     
@@ -256,23 +259,25 @@
         animation: pulse-blue-glow 2.5s ease-in-out infinite;
     }
     
-    /* Intense blue glow on hover - Enhanced for better interactivity */
+    /* Intense blue glow on hover - Significantly enhanced for maximum interactivity and visual impact */
     @keyframes pulse-blue-glow-intense {
         0%, 100% {
-            border-color: oklch(var(--blue-glow) / 0.9);
-            box-shadow: 0 0 35px oklch(var(--blue-glow) / 0.8),
-                        0 0 70px oklch(var(--blue-glow) / 0.6),
-                        0 0 105px oklch(var(--blue-glow) / 0.4),
-                        0 0 140px oklch(var(--blue-glow) / 0.2),
-                        inset 0 0 35px oklch(var(--blue-glow) / 0.2);
+            border-color: oklch(var(--blue-glow) / 1);
+            box-shadow: 0 0 60px oklch(var(--blue-glow) / 1),
+                        0 0 120px oklch(var(--blue-glow) / 0.9),
+                        0 0 180px oklch(var(--blue-glow) / 0.7),
+                        0 0 240px oklch(var(--blue-glow) / 0.5),
+                        0 0 300px oklch(var(--blue-glow) / 0.3),
+                        inset 0 0 60px oklch(var(--blue-glow) / 0.35);
         }
         50% {
             border-color: oklch(var(--blue-glow) / 1);
-            box-shadow: 0 0 45px oklch(var(--blue-glow) / 1),
-                        0 0 90px oklch(var(--blue-glow) / 0.8),
-                        0 0 135px oklch(var(--blue-glow) / 0.6),
-                        0 0 180px oklch(var(--blue-glow) / 0.4),
-                        inset 0 0 45px oklch(var(--blue-glow) / 0.25);
+            box-shadow: 0 0 80px oklch(var(--blue-glow) / 1),
+                        0 0 160px oklch(var(--blue-glow) / 1),
+                        0 0 240px oklch(var(--blue-glow) / 0.9),
+                        0 0 320px oklch(var(--blue-glow) / 0.7),
+                        0 0 400px oklch(var(--blue-glow) / 0.5),
+                        inset 0 0 80px oklch(var(--blue-glow) / 0.45);
         }
     }
     
@@ -306,4 +311,3 @@ html {
     box-shadow: 0 0 20px oklch(var(--gold) / 0.8),
                 0 0 40px oklch(var(--gold) / 0.5);
 }
-

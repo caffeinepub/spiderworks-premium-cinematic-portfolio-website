@@ -19,7 +19,7 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
 - Sub-headline and description
 - Two CTA buttons with enhanced glow effects and radiant hover animations:
   - "View Work" button with gold-outlined styling and strong glow effects
-  - "Hire Me" button enclosed in a visually striking blue glowing box with smooth pulse animation for a cinematic look. The blue glow should be noticeable and balanced with the surrounding gold aesthetics without being overpowering. The glow maintains elegance and refinement, fitting the cinematic theme. Hover effects intensify the blue glow slightly for enhanced interactivity while preserving accessibility through proper contrast and readability.
+  - "Hire Me" button enclosed in a highly prominent blue glowing box with enhanced brightness, saturation, and glow intensity. The blue glow is consistently visible against the black background with increased luminosity and vivid color saturation. Features smooth pulse animation and cinematic transitions. The enhanced blue glow maintains strong contrast for text legibility while being more prominent and eye-catching. Hover effects further intensify the blue glow with smooth transitions, creating a luxurious cinematic appearance that complements the gold and black theme.
 
 ### Intro Section
 - Short paragraph introducing SpiderWorks
@@ -93,10 +93,10 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
 
 ## Technical Requirements
 - Single-page application with smooth scrolling navigation
-- Responsive design for all device sizes ensuring the blue glowing "Hire Me" button maintains proper contrast and readability across all screen sizes
+- Responsive design for all device sizes ensuring the enhanced blue glowing "Hire Me" button maintains proper contrast and readability across all screen sizes
 - Smooth animations and transitions throughout with enhanced gold glow effects
 - Radiant glow hover effects on interactive elements
 - Strong and vivid gold glow effects on buttons, text highlights, icons, and borders
-- Blue glowing box with smooth pulse animation for "Hire Me" button that preserves accessibility standards
+- Enhanced blue glowing box with increased brightness, saturation, and glow intensity for "Hire Me" button that preserves accessibility standards while being more prominent against the black background
 - No backend data storage required - static portfolio content
 - App content language: English
