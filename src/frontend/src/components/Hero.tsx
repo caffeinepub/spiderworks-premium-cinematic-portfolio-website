@@ -34,6 +34,10 @@ export default function Hero() {
             <span className="text-gold glow-text">Frame by Frame.</span>
           </h1>
           
+          <div className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gold/90 tracking-wide">
+            Your Frame, Our Edit
+          </div>
+          
           <p className="text-xl md:text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed">
             Professional video editing that transforms raw footage into compelling visual narratives.
             Every cut tells a story. Every frame matters.

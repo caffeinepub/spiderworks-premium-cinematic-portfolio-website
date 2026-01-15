@@ -1,23 +1,23 @@
 const milestones = [
   {
-    year: '2022',
-    title: 'The Beginning',
-    description: 'Started professional video editing journey, focusing on social media content and short-form videos.',
-  },
-  {
-    year: '2023',
-    title: 'Expanding Horizons',
-    description: 'Transitioned into cinematic editing, working on music videos and brand commercials.',
-  },
-  {
     year: '2024',
-    title: 'Creative Excellence',
-    description: 'Established SpiderWorks brand, completed 300+ projects, and built a loyal client base.',
+    title: 'The Beginning',
+    description: 'Started professional video editing journey with SpiderWorks, focusing on cinematic storytelling and creative excellence.',
+  },
+  {
+    year: 'Q2',
+    title: 'Building Expertise',
+    description: 'Mastered advanced editing techniques, color grading, and motion graphics while working on diverse projects.',
+  },
+  {
+    year: 'Q3',
+    title: 'Growing Portfolio',
+    description: 'Expanded into music videos, brand commercials, and social media content, building a strong client base.',
   },
   {
     year: '2025',
-    title: 'Industry Recognition',
-    description: 'Recognized for cinematic storytelling excellence, working with premium brands and artists.',
+    title: 'Professional Recognition',
+    description: 'Established reputation for cinematic quality and precision, delivering premium video editing services.',
   },
 ];
 
@@ -30,7 +30,7 @@ export default function Timeline() {
             My <span className="text-gold">Journey</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
-            A timeline of growth, learning, and creative evolution
+            1 Year of Excellence - A timeline of rapid growth and creative mastery
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-# SpiderWorks - Premium Cinematic Portfolio Website
+# SpiderWorks Premium Cinematic Portfolio Website
 
 ## Overview
 A premium cinematic portfolio website for SpiderWorks, a professional video editor specializing in storytelling and cinematic content creation.
@@ -14,6 +14,7 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
 ### Hero Section
 - Full-screen layout with cinematic background visuals
 - Main headline: "Crafting Cinematic Stories Frame by Frame."
+- Brand tagline: "Your Frame, Our Edit" (displayed prominently under or near the main headline)
 - Sub-headline and description
 - Two gold-outlined CTA buttons: "View Work" and "Hire Me"
 
@@ -54,7 +55,8 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
 
 ### Timeline Section
 - Vertical timeline with gold lines
-- Career milestones from 2022-2025
+- Career milestones reflecting 1 Year Experience
+- Updated text to emphasize professionalism achieved within one year
 
 ### Services Section
 - Gold-bordered service cards for:
@@ -65,13 +67,13 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
   - YouTube editing
   - Motion graphics
 
-### Contact Page
-- Dark premium contact form with fields:
-  - Name
-  - Email
-  - Project Type
-  - Message
-- CTA button: "Let's Create Something Cinematic"
+### Contact Section
+- Premium contact display with cinematic theme styling
+- Contact information prominently displayed:
+  - Instagram handles: @yawr.piyush and @_black_velour_
+  - Email: Kumarsinghm070@gmail.com
+- Gold accents and elegant formatting aligned with overall design
+- CTA text: "Let's Create Something Cinematic"
 
 ### Next Steps Section
 - Final CTA area
@@ -91,3 +93,4 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
 - Smooth animations and transitions throughout
 - Hover effects on interactive elements
 - No backend data storage required - static portfolio content
+- App content language: English

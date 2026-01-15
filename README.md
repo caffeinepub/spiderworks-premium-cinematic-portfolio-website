@@ -1,4 +1,4 @@
-## SpiderWorks   Premium Cinematic Portfolio Website
+## SpiderWorks Premium Cinematic Portfolio Website
 
 To run app build and run docker image:
 
