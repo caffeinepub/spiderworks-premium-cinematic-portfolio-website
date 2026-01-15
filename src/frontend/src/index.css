@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.625rem;
+        --background: 0 0 0%;
+        --foreground: 100 0 0%;
+        --card: 0.1 0 0%;
+        --card-foreground: 100 0 0%;
+        --popover: 0.15 0 0%;
+        --popover-foreground: 100 0 0%;
+        --primary: 55 0.15 45%;
+        --primary-foreground: 0 0 0%;
+        --secondary: 0.15 0 0%;
+        --secondary-foreground: 100 0 0%;
+        --muted: 0.15 0 0%;
+        --muted-foreground: 60 0 0%;
+        --accent: 0.2 0 0%;
+        --accent-foreground: 100 0 0%;
+        --destructive: 0.5 0.22 25;
+        --destructive-foreground: 100 0 0%;
+        --border: 0.2 0 0%;
+        --input: 0.2 0 0%;
+        --ring: 55 0.15 45%;
+        --chart-1: 55 0.15 45%;
+        --chart-2: 45 0.12 60%;
+        --chart-3: 35 0.1 75%;
+        --chart-4: 65 0.18 30%;
+        --chart-5: 50 0.14 50%;
+        --sidebar: 0 0 0%;
+        --sidebar-foreground: 100 0 0%;
+        --sidebar-primary: 55 0.15 45%;
+        --sidebar-primary-foreground: 0 0 0%;
+        --sidebar-accent: 0.15 0 0%;
+        --sidebar-accent-foreground: 100 0 0%;
+        --sidebar-border: 0.2 0 0%;
+        --sidebar-ring: 55 0.15 45%;
+        
+        /* Gold color: #D4AF37 converted to OKLCH */
+        --gold: 55 0.15 45%;
+    }
+
+    .dark {
+        --background: 0 0 0%;
+        --foreground: 100 0 0%;
+        --card: 0.1 0 0%;
+        --card-foreground: 100 0 0%;
+        --popover: 0.15 0 0%;
+        --popover-foreground: 100 0 0%;
+        --primary: 55 0.15 45%;
+        --primary-foreground: 0 0 0%;
+        --secondary: 0.15 0 0%;
+        --secondary-foreground: 100 0 0%;
+        --muted: 0.15 0 0%;
+        --muted-foreground: 60 0 0%;
+        --accent: 0.2 0 0%;
+        --accent-foreground: 100 0 0%;
+        --destructive: 0.5 0.22 25;
+        --destructive-foreground: 100 0 0%;
+        --border: 0.2 0 0%;
+        --input: 0.2 0 0%;
+        --ring: 55 0.15 45%;
+        --chart-1: 55 0.15 45%;
+        --chart-2: 45 0.12 60%;
+        --chart-3: 35 0.1 75%;
+        --chart-4: 65 0.18 30%;
+        --chart-5: 50 0.14 50%;
+        --sidebar: 0 0 0%;
+        --sidebar-foreground: 100 0 0%;
+        --sidebar-primary: 55 0.15 45%;
+        --sidebar-primary-foreground: 0 0 0%;
+        --sidebar-accent: 0.15 0 0%;
+        --sidebar-accent-foreground: 100 0 0%;
+        --sidebar-border: 0.2 0 0%;
+        --sidebar-ring: 55 0.15 45%;
+    }
+
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+@layer utilities {
+    /* Gold color utility */
+    .text-gold {
+        color: oklch(var(--gold));
+    }
+    
+    .bg-gold {
+        background-color: oklch(var(--gold));
+    }
+    
+    .border-gold {
+        border-color: oklch(var(--gold));
+    }
+    
+    /* Glow effects for cinematic feel */
+    .glow-text {
+        text-shadow: 0 0 20px oklch(var(--gold) / 0.5),
+                     0 0 40px oklch(var(--gold) / 0.3),
+                     0 0 60px oklch(var(--gold) / 0.2);
+    }
+    
+    .shadow-gold {
+        box-shadow: 0 4px 20px oklch(var(--gold) / 0.3);
+    }
+    
+    .shadow-gold-lg {
+        box-shadow: 0 10px 40px oklch(var(--gold) / 0.4),
+                    0 0 60px oklch(var(--gold) / 0.2);
+    }
+    
+    /* Gradient utilities */
+    .bg-gradient-radial {
+        background: radial-gradient(circle, var(--tw-gradient-stops));
+    }
+    
+    /* Smooth scroll animation */
+    @keyframes scroll {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(8px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    
+    .animate-scroll {
+        animation: scroll 2s ease-in-out infinite;
+    }
+    
+    /* Fade in animation */
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .animate-fade-in {
+        animation: fade-in 1s ease-out;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: oklch(var(--gold) / 0.5);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: oklch(var(--gold));
+}
