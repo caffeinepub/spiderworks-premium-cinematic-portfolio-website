@@ -17,7 +17,9 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
 - Main headline: "Crafting Cinematic Stories Frame by Frame." with enhanced gold glow
 - Brand tagline: "Your Frame, Our Edit" (displayed prominently under or near the main headline)
 - Sub-headline and description
-- Two gold-outlined CTA buttons with strong glow effects and radiant hover animations: "View Work" and "Hire Me"
+- Two CTA buttons with enhanced glow effects and radiant hover animations:
+  - "View Work" button with gold-outlined styling and strong glow effects
+  - "Hire Me" button enclosed in a glowing box with vivid blue glow using smooth pulse animation, matching the cinematic theme without disrupting the black-and-gold palette. The glow should be elegant and refined, not harsh. Hover effects intensify the blue glow slightly for enhanced interactivity and visibility.
 
 ### Intro Section
 - Short paragraph introducing SpiderWorks

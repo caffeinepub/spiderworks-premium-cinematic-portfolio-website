@@ -52,14 +52,16 @@ export default function Hero() {
               View Work
               <Play className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button
-              size="lg"
-              onClick={() => scrollToSection('contact')}
-              className="bg-gold text-black hover:bg-gold/90 transition-all duration-300 px-8 py-6 text-lg font-semibold shadow-gold-lg hover:shadow-gold-xl group"
-            >
-              Hire Me
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <div className="blue-glow-box animate-pulse-blue-glow hover:animate-pulse-blue-glow-intense">
+              <Button
+                size="lg"
+                onClick={() => scrollToSection('contact')}
+                className="bg-gold text-black hover:bg-gold/90 transition-all duration-300 px-8 py-6 text-lg font-semibold shadow-gold-lg hover:shadow-gold-xl group"
+              >
+                Hire Me
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </div>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 {
   "frontend/src/App.tsx": "Main application component that wraps the entire portfolio in ThemeProvider and renders all sections including Header, Hero, Intro, MyWork, Skills, About, Timeline, Services, Contact, NextSteps, and Footer.",
   "frontend/src/components/Header.tsx": "Fixed navigation header with SpiderWorks logo, smooth scroll navigation links, and responsive mobile menu with gold accent colors.",
-  "frontend/src/components/Hero.tsx": "Full-screen hero section with cinematic background, enhanced gold glow effects on headline, tagline, and CTA buttons with radiant hover animations and stronger border glows.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with cinematic background, enhanced gold glow effects on headline and tagline, \"View Work\" button with gold styling, and \"Hire Me\" button enclosed in a vivid blue glowing box with smooth pulse animation and intensified hover effects.",
   "frontend/src/components/Intro.tsx": "Introduction section presenting SpiderWorks brand with storytelling emphasis, statistics display, and subtle gold glow background effects.",
   "frontend/src/components/MyWork.tsx": "Portfolio grid section with category filtering and enhanced hover glow animations on cards, borders, category badges, and overlay text with stronger gold glow effects.",
   "frontend/src/components/Skills.tsx": "Skills showcase section displaying six core competencies with enhanced gold glow effects on icons, skill cards, borders, and animated progress bars with stronger shadow and filter effects.",
@@ -11,7 +11,7 @@
   "frontend/src/components/Contact.tsx": "Premium contact section displaying Instagram handles and email in elegant gold-bordered cards with enhanced glow effects, stronger border animations, and radiant icon glows.",
   "frontend/src/components/NextSteps.tsx": "Final call-to-action section with enhanced gold glow effects on headline and button featuring pulse glow animation and stronger shadow effects.",
   "frontend/src/components/Footer.tsx": "Footer with SpiderWorks branding, slogan \"Cinematic stories. Precision edits.\", navigation links, social media icons, and caffeine.ai attribution with love icon.",
-  "frontend/src/index.css": "Global styles with enhanced OKLCH color system featuring stronger and more vivid gold glow effects including text shadows, box shadows, border glows, icon glows, and pulse animations for cinematic premium aesthetic.",
+  "frontend/src/index.css": "Global styles with enhanced OKLCH color system featuring gold and blue glow effects including text shadows, box shadows, border glows, icon glows, pulse animations, and blue glow box styling with smooth pulse animation for cinematic premium aesthetic.",
   "frontend/tailwind.config.js": "Tailwind configuration extended with enhanced gold glow shadow utilities (gold, gold-lg, gold-xl) for stronger visual impact across the application.",
   "frontend/src/hooks/useQueries.ts": "Empty file as backend has no data storage; all portfolio content is static and defined within components."
 }
