@@ -34,7 +34,7 @@ export default function Hero() {
             <span className="text-gold glow-text">Frame by Frame.</span>
           </h1>
           
-          <div className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gold/90 tracking-wide">
+          <div className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gold tracking-wide glow-text-subtle">
             Your Frame, Our Edit
           </div>
           
@@ -47,7 +47,7 @@ export default function Hero() {
             <Button
               size="lg"
               onClick={() => scrollToSection('work')}
-              className="bg-transparent border-2 border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300 px-8 py-6 text-lg font-semibold group"
+              className="bg-transparent border-2 border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300 px-8 py-6 text-lg font-semibold group shadow-gold hover:shadow-gold-xl border-glow hover:border-glow-strong"
             >
               View Work
               <Play className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -55,7 +55,7 @@ export default function Hero() {
             <Button
               size="lg"
               onClick={() => scrollToSection('contact')}
-              className="bg-gold text-black hover:bg-gold/90 transition-all duration-300 px-8 py-6 text-lg font-semibold shadow-gold group"
+              className="bg-gold text-black hover:bg-gold/90 transition-all duration-300 px-8 py-6 text-lg font-semibold shadow-gold-lg hover:shadow-gold-xl group"
             >
               Hire Me
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -66,8 +66,8 @@ export default function Hero() {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
-        <div className="w-6 h-10 border-2 border-gold/50 rounded-full flex items-start justify-center p-2">
-          <div className="w-1 h-3 bg-gold rounded-full animate-scroll"></div>
+        <div className="w-6 h-10 border-2 border-gold/50 rounded-full flex items-start justify-center p-2 shadow-gold">
+          <div className="w-1 h-3 bg-gold rounded-full animate-scroll shadow-gold"></div>
         </div>
       </div>
     </section>

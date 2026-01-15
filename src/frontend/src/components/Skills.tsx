@@ -41,7 +41,7 @@ export default function Skills() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Core <span className="text-gold">Skills</span>
+            Core <span className="text-gold glow-text-subtle">Skills</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
             Mastering the art and craft of cinematic video editing
@@ -52,24 +52,24 @@ export default function Skills() {
           {skills.map((skill) => (
             <div
               key={skill.name}
-              className="bg-black/50 border border-gold/20 rounded-lg p-6 hover:border-gold transition-all duration-300 hover:shadow-gold group"
+              className="bg-black/50 border border-gold/20 rounded-lg p-6 hover:border-gold transition-all duration-300 hover:shadow-gold-lg hover:border-glow-strong group"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 flex items-center justify-center bg-gold/10 rounded-lg group-hover:bg-gold/20 transition-colors duration-300">
+                <div className="w-16 h-16 flex items-center justify-center bg-gold/10 rounded-lg group-hover:bg-gold/20 transition-colors duration-300 border border-gold/30 group-hover:border-gold group-hover:shadow-gold">
                   <img
                     src={skill.icon}
                     alt={skill.name}
-                    className="w-10 h-10 object-contain"
+                    className="w-10 h-10 object-contain icon-glow group-hover:icon-glow-strong transition-all duration-300"
                   />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-lg font-bold text-white mb-1">{skill.name}</h3>
-                  <div className="text-gold text-sm font-semibold">{skill.level}%</div>
+                  <h3 className="text-lg font-bold text-white mb-1 group-hover:text-gold transition-colors">{skill.name}</h3>
+                  <div className="text-gold text-sm font-semibold glow-text-subtle">{skill.level}%</div>
                 </div>
               </div>
               <div className="w-full bg-white/10 rounded-full h-2 overflow-hidden">
                 <div
-                  className="bg-gradient-to-r from-gold to-yellow-600 h-full rounded-full transition-all duration-1000 shadow-gold"
+                  className="bg-gradient-to-r from-gold to-yellow-600 h-full rounded-full transition-all duration-1000 shadow-gold-lg"
                   style={{ width: `${skill.level}%` }}
                 ></div>
               </div>

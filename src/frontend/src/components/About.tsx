@@ -6,8 +6,8 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Portrait */}
             <div className="relative group">
-              <div className="absolute inset-0 bg-gold/20 rounded-lg blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-              <div className="relative overflow-hidden rounded-lg border-2 border-gold/30 group-hover:border-gold transition-all duration-300">
+              <div className="absolute inset-0 bg-gold/30 rounded-lg blur-2xl group-hover:blur-3xl transition-all duration-300 shadow-gold-xl"></div>
+              <div className="relative overflow-hidden rounded-lg border-2 border-gold/30 group-hover:border-gold transition-all duration-300 shadow-gold-lg group-hover:shadow-gold-xl border-glow group-hover:border-glow-strong">
                 <img
                   src="/assets/generated/editor-portrait.dim_400x500.jpg"
                   alt="SpiderWorks Editor"
@@ -20,15 +20,15 @@ export default function About() {
             {/* Bio */}
             <div className="space-y-6">
               <div>
-                <span className="text-gold text-sm font-semibold tracking-widest uppercase border border-gold/30 px-4 py-2 rounded-full inline-block mb-4">
+                <span className="text-gold text-sm font-semibold tracking-widest uppercase border border-gold/30 px-4 py-2 rounded-full inline-block mb-4 shadow-gold hover:shadow-gold-lg transition-all duration-300 glow-text-subtle">
                   About Me
                 </span>
                 <h2 className="text-4xl md:text-5xl font-bold text-white mt-4">
-                  Crafting Stories with <span className="text-gold">Precision</span>
+                  Crafting Stories with <span className="text-gold glow-text-subtle">Precision</span>
                 </h2>
               </div>
 
-              <div className="h-1 w-24 bg-gradient-to-r from-gold to-transparent"></div>
+              <div className="h-1 w-24 bg-gradient-to-r from-gold to-transparent shadow-gold"></div>
 
               <div className="space-y-4 text-white/70 text-lg leading-relaxed">
                 <p>
@@ -50,12 +50,12 @@ export default function About() {
               </div>
 
               <div className="flex flex-wrap gap-4 pt-4">
-                <div className="bg-gold/10 border border-gold/30 rounded-lg px-6 py-3">
-                  <div className="text-gold font-semibold">Specialty</div>
+                <div className="bg-gold/10 border border-gold/30 rounded-lg px-6 py-3 hover:border-gold hover:shadow-gold transition-all duration-300">
+                  <div className="text-gold font-semibold glow-text-subtle">Specialty</div>
                   <div className="text-white text-sm">Cinematic Storytelling</div>
                 </div>
-                <div className="bg-gold/10 border border-gold/30 rounded-lg px-6 py-3">
-                  <div className="text-gold font-semibold">Focus</div>
+                <div className="bg-gold/10 border border-gold/30 rounded-lg px-6 py-3 hover:border-gold hover:shadow-gold transition-all duration-300">
+                  <div className="text-gold font-semibold glow-text-subtle">Focus</div>
                   <div className="text-white text-sm">Attention to Detail</div>
                 </div>
               </div>

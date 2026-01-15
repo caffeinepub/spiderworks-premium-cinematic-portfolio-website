@@ -75,8 +75,9 @@ export default {
             },
             boxShadow: {
                 xs: '0 1px 2px 0 rgba(0,0,0,0.05)',
-                gold: '0 4px 20px oklch(var(--gold) / 0.3)',
-                'gold-lg': '0 10px 40px oklch(var(--gold) / 0.4), 0 0 60px oklch(var(--gold) / 0.2)'
+                gold: '0 4px 30px oklch(var(--gold) / 0.5), 0 0 50px oklch(var(--gold) / 0.3)',
+                'gold-lg': '0 10px 60px oklch(var(--gold) / 0.6), 0 0 100px oklch(var(--gold) / 0.4), 0 0 150px oklch(var(--gold) / 0.2)',
+                'gold-xl': '0 15px 80px oklch(var(--gold) / 0.7), 0 0 120px oklch(var(--gold) / 0.5), 0 0 180px oklch(var(--gold) / 0.3)'
             },
             keyframes: {
                 'accordion-down': {

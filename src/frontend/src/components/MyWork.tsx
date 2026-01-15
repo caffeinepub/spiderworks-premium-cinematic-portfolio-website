@@ -67,7 +67,7 @@ export default function MyWork() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            My <span className="text-gold">Work</span>
+            My <span className="text-gold glow-text-subtle">Work</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
             A curated collection of cinematic projects that showcase storytelling excellence
@@ -82,8 +82,8 @@ export default function MyWork() {
               onClick={() => setSelectedCategory(category)}
               className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
                 selectedCategory === category
-                  ? 'bg-gold text-black shadow-gold'
-                  : 'bg-white/5 text-white/70 hover:bg-white/10 hover:text-gold border border-gold/20'
+                  ? 'bg-gold text-black shadow-gold-lg border-glow-strong'
+                  : 'bg-white/5 text-white/70 hover:bg-white/10 hover:text-gold border border-gold/20 hover:border-gold hover:shadow-gold hover:border-glow'
               }`}
             >
               {category}
@@ -96,7 +96,7 @@ export default function MyWork() {
           {filteredItems.map((item) => (
             <Card
               key={item.id}
-              className="bg-zinc-900 border-gold/20 overflow-hidden group cursor-pointer hover:border-gold transition-all duration-300 hover:shadow-gold-lg"
+              className="bg-zinc-900 border-gold/20 overflow-hidden group cursor-pointer hover:border-gold transition-all duration-300 hover:shadow-gold-xl hover:border-glow-strong"
             >
               <div className="relative overflow-hidden aspect-video">
                 <img
@@ -112,14 +112,14 @@ export default function MyWork() {
                 </div>
               </div>
               <CardContent className="p-6 space-y-3">
-                <div className="text-gold text-sm font-medium">{item.category}</div>
-                <h3 className="text-xl font-bold text-white">{item.title}</h3>
+                <div className="text-gold text-sm font-medium glow-text-subtle">{item.category}</div>
+                <h3 className="text-xl font-bold text-white group-hover:text-gold transition-colors">{item.title}</h3>
                 <p className="text-white/60 text-sm leading-relaxed">{item.description}</p>
                 <div className="flex flex-wrap gap-2 pt-2">
                   {item.software.map((soft) => (
                     <span
                       key={soft}
-                      className="text-xs px-3 py-1 bg-gold/10 text-gold border border-gold/30 rounded-full"
+                      className="text-xs px-3 py-1 bg-gold/10 text-gold border border-gold/30 rounded-full hover:border-gold hover:shadow-gold transition-all duration-300"
                     >
                       {soft}
                     </span>

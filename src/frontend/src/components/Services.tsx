@@ -40,7 +40,7 @@ export default function Services() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            My <span className="text-gold">Services</span>
+            My <span className="text-gold glow-text-subtle">Services</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
             Comprehensive video editing solutions tailored to your creative vision
@@ -53,13 +53,13 @@ export default function Services() {
             return (
               <Card
                 key={service.title}
-                className="bg-zinc-900 border-2 border-gold/20 hover:border-gold transition-all duration-300 hover:shadow-gold group"
+                className="bg-zinc-900 border-2 border-gold/20 hover:border-gold transition-all duration-300 hover:shadow-gold-xl hover:border-glow-strong group"
               >
                 <CardHeader>
-                  <div className="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-gold/20 transition-colors duration-300">
-                    <Icon className="w-8 h-8 text-gold" />
+                  <div className="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-gold/20 transition-colors duration-300 border border-gold/30 group-hover:border-gold group-hover:shadow-gold-lg">
+                    <Icon className="w-8 h-8 text-gold icon-glow group-hover:icon-glow-strong transition-all duration-300" />
                   </div>
-                  <CardTitle className="text-2xl text-white">{service.title}</CardTitle>
+                  <CardTitle className="text-2xl text-white group-hover:text-gold transition-colors">{service.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-white/60 leading-relaxed">{service.description}</p>

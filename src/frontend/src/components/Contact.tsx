@@ -29,7 +29,7 @@ export default function Contact() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Let's <span className="text-gold">Connect</span>
+            Let's <span className="text-gold glow-text-subtle">Connect</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
             Have a project in mind? Let's create something cinematic together.
@@ -37,9 +37,9 @@ export default function Contact() {
         </div>
 
         <div className="max-w-3xl mx-auto">
-          <div className="bg-zinc-900 border-2 border-gold/30 rounded-lg p-8 md:p-12 space-y-8 shadow-gold">
+          <div className="bg-zinc-900 border-2 border-gold/30 rounded-lg p-8 md:p-12 space-y-8 shadow-gold-lg hover:shadow-gold-xl transition-all duration-300 border-glow-strong">
             <div className="text-center mb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-gold mb-2">
+              <h3 className="text-2xl md:text-3xl font-bold text-gold mb-2 glow-text-subtle">
                 Let's Create Something Cinematic
               </h3>
               <p className="text-white/70">Reach out through any of these channels</p>
@@ -52,9 +52,9 @@ export default function Contact() {
                   href={contact.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-6 p-6 bg-black border border-gold/20 rounded-lg hover:border-gold transition-all duration-300 hover:shadow-gold group"
+                  className="flex items-center gap-6 p-6 bg-black border border-gold/20 rounded-lg hover:border-gold transition-all duration-300 hover:shadow-gold-lg hover:border-glow-strong group"
                 >
-                  <div className="flex-shrink-0 w-16 h-16 bg-zinc-900 border border-gold/30 rounded-full flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-black transition-all duration-300">
+                  <div className="flex-shrink-0 w-16 h-16 bg-zinc-900 border border-gold/30 rounded-full flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-black transition-all duration-300 group-hover:shadow-gold-lg icon-glow group-hover:icon-glow-strong">
                     {contact.icon}
                   </div>
                   <div className="flex-1 text-left">
@@ -63,7 +63,7 @@ export default function Contact() {
                       {contact.value}
                     </div>
                   </div>
-                  <Send className="w-5 h-5 text-gold opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300" />
+                  <Send className="w-5 h-5 text-gold opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300 icon-glow" />
                 </a>
               ))}
             </div>

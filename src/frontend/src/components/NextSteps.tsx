@@ -29,7 +29,7 @@ export default function NextSteps() {
           <Button
             size="lg"
             onClick={scrollToContact}
-            className="bg-gold text-black hover:bg-gold/90 transition-all duration-300 px-10 py-7 text-xl font-semibold shadow-gold group"
+            className="bg-gold text-black hover:bg-gold/90 transition-all duration-300 px-10 py-7 text-xl font-semibold shadow-gold-xl hover:shadow-gold-xl group animate-pulse-glow"
           >
             Start Your Project
             <ArrowRight className="ml-2 h-6 w-6 group-hover:translate-x-1 transition-transform" />
