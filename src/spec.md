@@ -19,7 +19,12 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
 - Sub-headline and description
 - Two CTA buttons with enhanced glow effects and radiant hover animations:
   - "View Work" button with gold-outlined styling and strong glow effects
-  - "Hire Me" button enclosed in a highly prominent blue glowing box with enhanced brightness, saturation, and glow intensity. The blue glow is consistently visible against the black background with increased luminosity and vivid color saturation. Features smooth pulse animation and cinematic transitions. The enhanced blue glow maintains strong contrast for text legibility while being more prominent and eye-catching. Hover effects further intensify the blue glow with smooth transitions, creating a luxurious cinematic appearance that complements the gold and black theme.
+  - "Hire Me" button with maximum visibility featuring:
+    - Intensified blue glow with increased brightness, outer spread, and enhanced contrast against black background
+    - Text color in pure white (#FFFFFF) or bright gold (#FFD700) for maximum readability
+    - Subtle white-blue inner glow highlight for three-dimensional pop effect
+    - Cinematic smooth hover and focus animations with clear visibility across all screen sizes
+    - Enhanced luminosity and vivid color saturation maintaining accessibility standards
 
 ### Intro Section
 - Short paragraph introducing SpiderWorks
@@ -93,10 +98,10 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
 
 ## Technical Requirements
 - Single-page application with smooth scrolling navigation
-- Responsive design for all device sizes ensuring the enhanced blue glowing "Hire Me" button maintains proper contrast and readability across all screen sizes
+- Responsive design for all device sizes ensuring the intensified blue glowing "Hire Me" button maintains maximum visibility and readability across all screen sizes
 - Smooth animations and transitions throughout with enhanced gold glow effects
 - Radiant glow hover effects on interactive elements
 - Strong and vivid gold glow effects on buttons, text highlights, icons, and borders
-- Enhanced blue glowing box with increased brightness, saturation, and glow intensity for "Hire Me" button that preserves accessibility standards while being more prominent against the black background
+- Intensified blue glowing "Hire Me" button with increased brightness, outer spread, enhanced contrast, pure white or bright gold text, and subtle white-blue inner glow for three-dimensional effect
 - No backend data storage required - static portfolio content
 - App content language: English

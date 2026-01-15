@@ -52,14 +52,14 @@ export default function Hero() {
               View Work
               <Play className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <div className="blue-glow-box animate-pulse-blue-glow hover:animate-pulse-blue-glow-intense">
+            <div className="blue-glow-box-intense animate-pulse-blue-glow-cinematic hover:animate-pulse-blue-glow-ultra">
               <Button
                 size="lg"
                 onClick={() => scrollToSection('contact')}
-                className="bg-gold text-black hover:bg-gold/90 transition-all duration-300 px-8 py-6 text-lg font-semibold shadow-gold-lg hover:shadow-gold-xl group"
+                className="bg-gradient-to-br from-gold via-gold to-[#FFD700] text-black hover:from-[#FFD700] hover:via-gold hover:to-gold transition-all duration-500 px-8 py-6 text-lg font-bold shadow-gold-lg hover:shadow-gold-xl group relative overflow-hidden hire-me-button"
               >
-                Hire Me
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                <span className="relative z-10 text-shadow-white-blue">Hire Me</span>
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform relative z-10" />
               </Button>
             </div>
           </div>
