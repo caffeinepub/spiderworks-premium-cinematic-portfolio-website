@@ -11,7 +11,7 @@
   "frontend/src/components/Contact.tsx": "Premium contact section displaying Instagram handles and email in elegant gold-bordered cards with enhanced glow effects, stronger border animations, and radiant icon glows.",
   "frontend/src/components/NextSteps.tsx": "Final call-to-action section with enhanced gold glow effects on headline and button featuring pulse glow animation and stronger shadow effects.",
   "frontend/src/components/Footer.tsx": "Footer with SpiderWorks branding, slogan \"Cinematic stories. Precision edits.\", navigation links, social media icons, and caffeine.ai attribution with love icon.",
-  "frontend/src/index.css": "Global styles with enhanced OKLCH color system featuring gold and blue glow effects including text shadows, box shadows, border glows, icon glows, pulse animations, and blue glow box styling with smooth pulse animation for cinematic premium aesthetic.",
+  "frontend/src/index.css": "Global styles with enhanced OKLCH color system featuring stronger blue glow effects for the \"Hire Me\" button box with improved visibility, smooth pulse animations, and intensified hover states while maintaining balance with gold aesthetics and ensuring proper contrast for accessibility.",
   "frontend/tailwind.config.js": "Tailwind configuration extended with enhanced gold glow shadow utilities (gold, gold-lg, gold-xl) for stronger visual impact across the application.",
   "frontend/src/hooks/useQueries.ts": "Empty file as backend has no data storage; all portfolio content is static and defined within components."
 }

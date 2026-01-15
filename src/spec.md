@@ -19,7 +19,7 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
 - Sub-headline and description
 - Two CTA buttons with enhanced glow effects and radiant hover animations:
   - "View Work" button with gold-outlined styling and strong glow effects
-  - "Hire Me" button enclosed in a glowing box with vivid blue glow using smooth pulse animation, matching the cinematic theme without disrupting the black-and-gold palette. The glow should be elegant and refined, not harsh. Hover effects intensify the blue glow slightly for enhanced interactivity and visibility.
+  - "Hire Me" button enclosed in a visually striking blue glowing box with smooth pulse animation for a cinematic look. The blue glow should be noticeable and balanced with the surrounding gold aesthetics without being overpowering. The glow maintains elegance and refinement, fitting the cinematic theme. Hover effects intensify the blue glow slightly for enhanced interactivity while preserving accessibility through proper contrast and readability.
 
 ### Intro Section
 - Short paragraph introducing SpiderWorks
@@ -93,9 +93,10 @@ A premium cinematic portfolio website for SpiderWorks, a professional video edit
 
 ## Technical Requirements
 - Single-page application with smooth scrolling navigation
-- Responsive design for all device sizes
+- Responsive design for all device sizes ensuring the blue glowing "Hire Me" button maintains proper contrast and readability across all screen sizes
 - Smooth animations and transitions throughout with enhanced gold glow effects
 - Radiant glow hover effects on interactive elements
 - Strong and vivid gold glow effects on buttons, text highlights, icons, and borders
+- Blue glowing box with smooth pulse animation for "Hire Me" button that preserves accessibility standards
 - No backend data storage required - static portfolio content
 - App content language: English

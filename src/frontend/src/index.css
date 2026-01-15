@@ -41,8 +41,8 @@
         /* Gold color: #D4AF37 converted to OKLCH */
         --gold: 55 0.15 45%;
         
-        /* Blue color for cinematic glow: elegant vivid blue in OKLCH */
-        --blue-glow: 60 0.18 250%;
+        /* Blue color for cinematic glow: elegant vivid blue in OKLCH - enhanced for better visibility */
+        --blue-glow: 65 0.20 250%;
     }
 
     .dark {
@@ -79,7 +79,7 @@
         --sidebar-border: 0.2 0 0%;
         --sidebar-ring: 55 0.15 45%;
         
-        --blue-glow: 60 0.18 250%;
+        --blue-glow: 65 0.20 250%;
     }
 
     * {
@@ -159,16 +159,23 @@
                 drop-shadow(0 0 75px oklch(var(--gold) / 0.3));
     }
     
-    /* Blue glow box for Hire Me button */
+    /* Blue glow box for Hire Me button - Enhanced for better visibility */
     .blue-glow-box {
         display: inline-block;
-        padding: 4px;
-        border-radius: 0.5rem;
-        background: transparent;
-        border: 2px solid oklch(var(--blue-glow) / 0.6);
-        box-shadow: 0 0 20px oklch(var(--blue-glow) / 0.5),
-                    0 0 40px oklch(var(--blue-glow) / 0.3),
-                    inset 0 0 20px oklch(var(--blue-glow) / 0.1);
+        padding: 6px;
+        border-radius: 0.625rem;
+        background: oklch(var(--blue-glow) / 0.05);
+        border: 2px solid oklch(var(--blue-glow) / 0.7);
+        box-shadow: 0 0 25px oklch(var(--blue-glow) / 0.6),
+                    0 0 50px oklch(var(--blue-glow) / 0.4),
+                    0 0 75px oklch(var(--blue-glow) / 0.2),
+                    inset 0 0 25px oklch(var(--blue-glow) / 0.15);
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .blue-glow-box:hover {
+        background: oklch(var(--blue-glow) / 0.08);
+        border-color: oklch(var(--blue-glow) / 0.9);
     }
     
     /* Gradient utilities */
@@ -226,20 +233,22 @@
         animation: pulse-glow 2s ease-in-out infinite;
     }
     
-    /* Blue pulse glow animation for Hire Me button */
+    /* Blue pulse glow animation for Hire Me button - Enhanced for cinematic effect */
     @keyframes pulse-blue-glow {
         0%, 100% {
-            border-color: oklch(var(--blue-glow) / 0.6);
-            box-shadow: 0 0 20px oklch(var(--blue-glow) / 0.5),
-                        0 0 40px oklch(var(--blue-glow) / 0.3),
-                        inset 0 0 20px oklch(var(--blue-glow) / 0.1);
+            border-color: oklch(var(--blue-glow) / 0.7);
+            box-shadow: 0 0 25px oklch(var(--blue-glow) / 0.6),
+                        0 0 50px oklch(var(--blue-glow) / 0.4),
+                        0 0 75px oklch(var(--blue-glow) / 0.2),
+                        inset 0 0 25px oklch(var(--blue-glow) / 0.15);
         }
         50% {
-            border-color: oklch(var(--blue-glow) / 0.8);
-            box-shadow: 0 0 30px oklch(var(--blue-glow) / 0.7),
-                        0 0 60px oklch(var(--blue-glow) / 0.5),
-                        0 0 90px oklch(var(--blue-glow) / 0.3),
-                        inset 0 0 30px oklch(var(--blue-glow) / 0.15);
+            border-color: oklch(var(--blue-glow) / 0.9);
+            box-shadow: 0 0 35px oklch(var(--blue-glow) / 0.8),
+                        0 0 70px oklch(var(--blue-glow) / 0.6),
+                        0 0 105px oklch(var(--blue-glow) / 0.4),
+                        0 0 140px oklch(var(--blue-glow) / 0.2),
+                        inset 0 0 35px oklch(var(--blue-glow) / 0.2);
         }
     }
     
@@ -247,21 +256,23 @@
         animation: pulse-blue-glow 2.5s ease-in-out infinite;
     }
     
-    /* Intense blue glow on hover */
+    /* Intense blue glow on hover - Enhanced for better interactivity */
     @keyframes pulse-blue-glow-intense {
         0%, 100% {
-            border-color: oklch(var(--blue-glow) / 0.8);
-            box-shadow: 0 0 30px oklch(var(--blue-glow) / 0.7),
-                        0 0 60px oklch(var(--blue-glow) / 0.5),
-                        0 0 90px oklch(var(--blue-glow) / 0.3),
-                        inset 0 0 30px oklch(var(--blue-glow) / 0.15);
+            border-color: oklch(var(--blue-glow) / 0.9);
+            box-shadow: 0 0 35px oklch(var(--blue-glow) / 0.8),
+                        0 0 70px oklch(var(--blue-glow) / 0.6),
+                        0 0 105px oklch(var(--blue-glow) / 0.4),
+                        0 0 140px oklch(var(--blue-glow) / 0.2),
+                        inset 0 0 35px oklch(var(--blue-glow) / 0.2);
         }
         50% {
             border-color: oklch(var(--blue-glow) / 1);
-            box-shadow: 0 0 40px oklch(var(--blue-glow) / 0.9),
-                        0 0 80px oklch(var(--blue-glow) / 0.7),
-                        0 0 120px oklch(var(--blue-glow) / 0.5),
-                        inset 0 0 40px oklch(var(--blue-glow) / 0.2);
+            box-shadow: 0 0 45px oklch(var(--blue-glow) / 1),
+                        0 0 90px oklch(var(--blue-glow) / 0.8),
+                        0 0 135px oklch(var(--blue-glow) / 0.6),
+                        0 0 180px oklch(var(--blue-glow) / 0.4),
+                        inset 0 0 45px oklch(var(--blue-glow) / 0.25);
         }
     }
     
@@ -295,3 +306,4 @@ html {
     box-shadow: 0 0 20px oklch(var(--gold) / 0.8),
                 0 0 40px oklch(var(--gold) / 0.5);
 }
+
